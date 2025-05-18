@@ -36,7 +36,7 @@ Choose an option:
 public class JDBC_Challenge {
     private static String url = "jdbc:postgresql://localhost:13000/jdbc-course";
     private static String username = "postgres";
-    private static String password = "Max@132006";
+    private static String password = "------------";
     private static Connection connection;
     private static BufferedReader reader;
     private static boolean programLifecycleIsNotOver = true;
