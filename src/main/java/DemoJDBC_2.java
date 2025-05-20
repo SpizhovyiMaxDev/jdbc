@@ -14,7 +14,7 @@ import java.sql.*;
 public class DemoJDBC_2 {
     private static final String url = "jdbc:postgresql://localhost:13000/jdbc-course";
     private static final String user = "postgres";
-    private static final String password = "Max@132006";
+    private static final String password = "-------";
     private static Connection connection;
 
     // For legacy JDBC (usually not needed in modern setups)
