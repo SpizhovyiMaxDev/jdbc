@@ -24,7 +24,7 @@ public class DemoJDBC_1 {
 
 
             String name = "postgres";
-            String password = "Max@132006";
+            String password = "-------------";
 
             Connection connection = DriverManager.getConnection(url, name, password);
             System.out.println("Connection Established");
