@@ -58,12 +58,11 @@ public class DemoJDBC_1 {
 
         ResultSet result = statement.executeQuery(sqlQuery);
 
+        System.out.println("// ------------------------------------------ //");
         if(result.next()){ // you are asking the ResultSet to move its internal cursor to the next row in the result set.
-            System.out.println("// ------------------------------------------ //");
             String studentName = result.getString("name"); // select column by name or by index
             System.out.println("\t\t Student name is: " + studentName);
         } else {
-            System.out.println("// ------------------------------------------ //");
             System.out.println("There was no rows found by hat id.");
         }
 
